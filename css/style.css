@@ -320,3 +320,150 @@ section .button {
     width: fit-content;
     margin: 20px auto;
 }
+/* Mobile menu button */
+
+.menu-toggle {
+
+    display: none;
+
+    background: none;
+
+    border: none;
+
+    color: white;
+
+    font-size: 30px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* Mobile responsive */
+
+@media (max-width: 768px) {
+
+
+    .navbar {
+
+        padding: 15px 20px;
+
+    }
+
+
+    .menu-toggle {
+
+        display: block;
+
+    }
+
+
+    .nav-links {
+
+        display: none;
+
+        flex-direction: column;
+
+        position: absolute;
+
+        top: 70px;
+
+        left: 0;
+
+        width: 100%;
+
+        background-color: #1d5c63;
+
+        padding: 20px 0;
+
+        text-align: center;
+
+    }
+
+
+    .nav-links.show {
+
+        display: flex;
+
+    }
+
+
+    .nav-links li {
+
+        margin: 10px 0;
+
+    }
+
+
+
+    .hero {
+
+        height: 70vh;
+
+    }
+
+
+
+    .hero h1 {
+
+        font-size: 2.2rem;
+
+    }
+
+
+
+    .hero p {
+
+        font-size: 1rem;
+
+    }
+
+
+
+    section {
+
+        padding: 25px 20px;
+
+    }
+
+
+}
+/* Gallery */
+
+.gallery-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+}
+
+
+.gallery-item img {
+
+    width: 100%;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+.gallery-grid {
+
+    grid-template-columns: 1fr;
+
+}
+
+
+}
