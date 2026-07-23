@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #1d5c63;
+}
+
+section {
+    padding: 40px;
+}
+
+/* Navigation bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d5c63;
+    padding: 20px 40px;
+}
+
+
+/* Website name */
+
+.navbar > div a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Menu */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* Hover effect */
+
+.nav-links a:hover {
+    color: #f4d35e;
+}
+.nav-links a {
+    transition: color 0.3s ease;
+}
+/* Hero section */
+
+.hero {
+
+    height: 80vh;
+
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("../images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+
+/* Hero text */
+
+.hero-content {
+
+    max-width: 800px;
+
+    padding: 20px;
+
+}
+
+
+.hero h1 {
+
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+
+}
+
+
+.hero p {
+
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+
+}
+
+
+/* Booking button */
+
+.button {
+
+    background-color: #f4d35e;
+
+    color: #333;
+
+    padding: 15px 30px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+
+.button:hover {
+
+    background-color: white;
+
+}
